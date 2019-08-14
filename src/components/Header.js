@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { addFeature } from "../actions";
 
 const Header = props => {
   return (
@@ -23,7 +22,4 @@ const mapStateTOProps = state => {
   };
 };
 
-export default connect(
-  mapStateTOProps,
-  { addFeature }
-)(Header);
+export default connect(mapStateTOProps)(Header);
