@@ -9,7 +9,7 @@ import "bulma/css/bulma.css";
 import "./styles.scss";
 
 export const store = createStore(featureReducer);
-console.log("reducer index store", store);
+//console.log("reducer index store", store);
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(

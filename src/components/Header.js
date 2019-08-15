@@ -14,7 +14,6 @@ const Header = props => {
 };
 
 const mapStateTOProps = state => {
-  console.log("mapTostateheader", state);
   return {
     image: state.car.image,
     name: state.car.name,
